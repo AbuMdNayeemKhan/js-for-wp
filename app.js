@@ -51,3 +51,14 @@ x -= 5;
 // <= less than and equal
 // && both should be same
 // || anyone will be same
+
+
+let marks = 145;
+
+if(marks >= 33 && marks <=100){
+    console.log("Pass");
+} else if (marks < 0 || marks > 100) {
+    console.log("Invalid Result");
+} else {
+    console.log("Fail")
+};
