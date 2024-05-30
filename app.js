@@ -62,3 +62,14 @@ if(marks >= 33 && marks <=100){
 } else {
     console.log("Fail")
 };
+
+// for loop
+for (let i = 0; i < 10; i++){
+    console.log("For Loop: " + i);
+}
+
+let nk = 0;
+while(nk < 10){
+    console.log("While Loop: " + nk);
+    nk++;
+}
