@@ -73,3 +73,8 @@ while(nk < 10){
     console.log("While Loop: " + nk);
     nk++;
 }
+
+// array
+
+const color = ['red', 'green', 'blue', 'green'];
+console.log(color[0]);
